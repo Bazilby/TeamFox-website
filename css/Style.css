@@ -1,0 +1,202 @@
+html, body {
+    height: 100%;
+    width: 100%; 
+}
+.navbar {
+    background-color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    min-height: 45px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #22425e;
+    background-color: #FFF;
+    padding: 20px 20px !important;
+    margin: -2px -2px 0px 10px;
+    
+}
+
+.navbar-default .navbar-nav li a:hover, navbar-default .navbar-nav li a:active {
+    color: #FFF;
+    background-color: #D35400;
+    
+}
+
+.animate{
+    transition: all 0.1s;
+    -webkit-transition all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	color: #D35400;
+	text-decoration: none;	
+}
+
+.action-button:active {
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+#home {
+    background: url(../img/camping.png) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+
+
+
+.padding {
+    padding: 80px 0;
+}
+
+.padding img{
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #23415C;
+    padding: 5% 5% 6% 5%;
+    color: #FFF;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+@media (max-width: 768px){
+    .landing-text h1{
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+/*modal*/
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+
+.modal-content{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+
+input {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+    border: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.loginButton {
+    background-color: #23415C;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    width: 30%;
+    transition-property: background-color, color; 
+    transition-duration: 0.5s; 
+    transition-timing-function: ease;
+    
+}
+
+.loginButton:hover{
+   
+    color: #FFF;
+    background-color: #D35400;
+    text-decoration: none;
+    
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    
+}
+
+.close:hover {
+    -webkit-transform: rotate(135deg);
+    transition-duration: 0.5s;
+}
+
+.product {
+                width: 1000px;
+                background: #FFF;
+                padding: 10px 20px;
+                transform: translate(-50%, -50%);
+                border-radius: 12px;
+                border: 1px solid black;
+                overflow: hidden;
+                margin-top: 4%;
+                margin-left: 50%;
+                margin-bottom: -3.5%;
+            }
+
+
+
+
+
+
